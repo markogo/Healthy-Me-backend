@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      
+      <ProjectReference Include="..\DAL.App.DTO\DAL.App.DTO.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="ee.itcollege.magord.healthyfood.Contracts.DAL.Base" Version="1.0.0" />
+    </ItemGroup>
+
+</Project>

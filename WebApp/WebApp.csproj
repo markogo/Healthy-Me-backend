@@ -1,0 +1,73 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-WebApp-B0607F04-4DDD-4A61-B2EA-41782011DF2C</UserSecretsId>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\WebApp.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="4.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="4.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.3" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.4" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.1.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BLL.App\BLL.App.csproj" />
+    <ProjectReference Include="..\Contracts.BLL.App\Contracts.BLL.App.csproj" />
+    <ProjectReference Include="..\DAL.App.EF\DAL.App.EF.csproj" />
+    <ProjectReference Include="..\Extensions\Extensions.csproj" />
+    <ProjectReference Include="..\PublicApi.DTO.v1\PublicApi.DTO.v1.csproj" />
+  </ItemGroup>
+  
+  
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\PersonInRestaurants\Create.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\PersonInRestaurants\Delete.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\PersonInRestaurants\Details.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\PersonInRestaurants\Edit.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\PersonInRestaurants\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\Persons\Create.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\Persons\Delete.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\Persons\Details.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\Persons\Edit.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\Persons\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\Bills\Create.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\Bills\Delete.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\Bills\Details.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\Bills\Edit.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\Bills\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\Payments\Create.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\Payments\Delete.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\Payments\Details.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\Payments\Edit.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\Payments\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\Contacts\Create.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\Contacts\Delete.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\Contacts\Details.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\Contacts\Edit.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\Contacts\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\ContactTypes\Create.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\ContactTypes\Delete.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\ContactTypes\Details.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\ContactTypes\Edit.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Admin\Views\ContactTypes\Index.cshtml" />
+  </ItemGroup>
+  
+  
+
+</Project>
